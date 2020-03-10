@@ -1,0 +1,90 @@
+/* Dock 외부 적용 */
+.dock-panel {
+  border: 1px solid #363636;
+  background-color: #1e1e1e;
+}
+
+.dock-panel.dock-style-place-holder {
+  background-color: #252526;
+}
+
+/* Dock Group Bar */
+.dock-panel .dock-bar {
+  background: #252526;
+  border-bottom: none;
+}
+
+.dock-top .dock-ink-bar {
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: -3px;
+  background-color: #fcc30b;
+  transform-origin: 0 0;
+  width: 0;
+}
+
+/* Dock Tab*/
+.dock-panel .dock-tab {
+  margin-right: 0;
+  border: none;
+  background: #2d2d2d;
+  color: #626262;
+}
+.dock-panel .dock-tab-close-btn {
+  visibility: collapse;
+}
+.dock-panel .dock-tab.dock-tab-active {
+  background: #1e1e1e;
+  color: #fff;
+}
+.dock-panel .dock-tab-active .dock-tab-close-btn {
+  color: #fff;
+  visibility: visible;
+}
+
+/* global dock layout styles */
+.dock-layout {
+  overflow: hidden;
+}
+
+.dock-layout > .dock-box {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.dock-layout > .dock-drop-indicator {
+  border: solid 1px #fbb80c;
+  box-shadow: inset 0 0 10px #fbb80c ;
+  background: none;
+}
+
+.dock-panel .dock-panel-max-btn {
+  opacity: 1;
+}
+.dock-panel .dock-panel-max-btn:before {
+  border-color: #fff;
+  color: #fff;
+}
+/* dock Panel contents area */
+.dock-content .dock-tabpane {
+  position: relative;
+  /* overflow-y: auto !important; */
+  width: 100%;
+  height: 100%;
+}
+
+/* dock drop  */
+
+.dock-drop-layer > .dock-drop-square {
+  background-color: #252526 !important;
+}
+
+.dragging-layer > .dock-tab {
+  background-color: #1e1e1e;
+}
+
+.dragging-layer > .dock-tab-active, .dock-tab-active:hover {
+  color: #fbb80c;
+}
