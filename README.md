@@ -2,4 +2,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## TODO
 - [x] apply camera-controls 
-- [ ] apply use-cannon
+- [x] apply use-cannon
+- [ ] camera-control componetify
