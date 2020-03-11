@@ -32,7 +32,7 @@ let layout = {
                     150 x 150 px
                   </div>
                 ), minWidth: 150, minHeight: 150,
-              }, {...tab, id: 't4', title: 'Tab 4'}],
+              }],
             },
           ]
         },
