@@ -1,16 +1,16 @@
 /* Dock 외부 적용 */
 .dock-panel {
   border: 1px solid #363636;
-  background-color: #1e1e1e;
+  background-color: #02ecec67;
 }
 
 .dock-panel.dock-style-place-holder {
-  background-color: #252526;
+  background-color: #13939762;
 }
 
 /* Dock Group Bar */
 .dock-panel .dock-bar {
-  background: #252526;
+  background: #550f3eb6;
   border-bottom: none;
 }
 
@@ -18,7 +18,7 @@
   position: absolute;
   box-sizing: border-box;
   margin-top: -3px;
-  background-color: #fcc30b;
+  background-color: #fc0b0b;
   transform-origin: 0 0;
   width: 0;
 }
@@ -27,14 +27,14 @@
 .dock-panel .dock-tab {
   margin-right: 0;
   border: none;
-  background: #2d2d2d;
+  background: #106277;
   color: #626262;
 }
 .dock-panel .dock-tab-close-btn {
   visibility: collapse;
 }
 .dock-panel .dock-tab.dock-tab-active {
-  background: #1e1e1e;
+  background: #00f5fd;
   color: #fff;
 }
 .dock-panel .dock-tab-active .dock-tab-close-btn {
@@ -75,7 +75,7 @@
   height: 100%;
 }
 
-/* dock drop  */
+/* dock drop 
 
 .dock-drop-layer > .dock-drop-square {
   background-color: #252526 !important;
@@ -87,4 +87,4 @@
 
 .dragging-layer > .dock-tab-active, .dock-tab-active:hover {
   color: #fbb80c;
-}
+} */
