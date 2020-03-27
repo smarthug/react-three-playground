@@ -7,7 +7,7 @@ import 'rc-dock/dist/rc-dock.css'
 //import './dock.css'
 
 import Scene from './scene'
-console.log('hihi')
+console.log('hifefefhi')
 let tab = {
   content: <div>Tab Content</div>,
   closable: true,
